@@ -1,0 +1,12 @@
+footer{
+
+}
+hr{
+    width: 90%;
+    border: 0ch;
+    border-radius: 1px solid grey;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
