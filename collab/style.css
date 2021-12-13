@@ -45,7 +45,7 @@ footer{
   line-height: 40px;
   font-size: 20px;
   color: #3D3D3D;
-  background: #fff;
+  background: rgb(253, 253, 253);
   margin-right: 5px;
   margin-top: 10px;
   cursor: pointer;
@@ -74,4 +74,13 @@ hr{
 }
 .copyright{
   text-align: center!important;
+}
+
+.socialmedia .fa:hover{
+  background: purple;
+  color: white;
+}
+
+a:hover{
+  color: white;
 }
