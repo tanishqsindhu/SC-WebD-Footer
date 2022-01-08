@@ -13,17 +13,7 @@ body{
     min-height: 100vh;
     flex-direction: column;
 }
-footer{
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 50px 200px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: white;
-    background-color: #262b47;
-}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -115,25 +105,23 @@ hr{
 .copyrightText{
     width: 100%;
     background: #262b47;
-    padding: 8px 200px;
+    padding-top: 5px;
     text-align: center;
 }
-@media(max-width: 991px){
-    footer{
-        padding: 40px;
-    }
-    footer .container{
+@media(max-width: 1375px){
+
+.container{
         flex-direction: column;
     }
-    footer .container .sec{
+.container .sec{
         margin-right: 0;
         margin-bottom: 40px;
     }
-    footer .container .sec.aboutus,.quickLinks,.contact{
+.container .sec,.aboutus,.quickLinks,.contact{
         width: 100%;
     }
     .copyrightText{
-        padding: 8px 40px;
+        padding-top: 5px;
     }
 }
 /*---Footer----*/

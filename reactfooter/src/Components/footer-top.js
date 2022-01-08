@@ -6,7 +6,6 @@ import { faFacebookF,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-
 const Footertop = () => {
     return(
         <>
-            <footer>
                 <div className={footer.container}>
                     <div className={footer.sec,footer.aboutus}>
                         <a href="#"><img src={logo} className={footer.logo} alt ="logo"/></a>
@@ -39,14 +38,13 @@ const Footertop = () => {
                     <div className={footer.sec,footer.quickLinks}>
                         <h2>Our Policy</h2>
                         <ul>
-                            <li><span>- </span><a href="#">Application Security</a></li>
-                            <li><span>- </span><a href="#">Software Principles</a></li>
-                            <li><a href="#">Responsible Supply Chain</a></li>
-                            <li><span>- </span><a href="#">Software Policy</a></li>
+                            <li><span>-</span><a href="#">Application Security</a></li>
+                            <li><span>-</span><a href="#">Software Principles</a></li>
+                            <li><span>-</span><a href="#">Responsible Supply</a></li>
+                            <li><span>-</span><a href="#">Software Policy</a></li>
                         </ul>
                     </div>
                 </div>
-            </footer>
                 <div className={footer.copyrightText}>
                     <hr/>
                     <p>2021 © Zytheme.All Rights Reserved.</p>
