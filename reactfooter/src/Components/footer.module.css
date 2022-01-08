@@ -21,18 +21,18 @@ body{
     flex-direction: row;
 }
 .sec{
-    margin-right: 19px;
+    margin-right: 13px;
 }
 .aboutus{
     width: 20%;
 }
-h2{
+.h2{
     position: relative;
     color: white;
     font-weight: 500;
     margin-bottom: 15px;
 }
-h2:before{
+.h2:before{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -41,20 +41,20 @@ h2:before{
     height: 2px;
     background: #f00;
 }
-p{
+.p{
 color: #c5c5c5;
 }
 .sci{
     margin-top: 20px;
     display: flex;
 }
-.sci li{
+.sci .li{
     list-style: none;
 }
-.sci li a{
+.sci .li .a{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     color:#3d3d3d;;
     background: rgb(253, 253, 253);
     display: flex;
@@ -65,37 +65,39 @@ color: #c5c5c5;
     border-radius: 50%;
     cursor: pointer;
 }
-.sci li a:hover{
+.sci .li .a:hover{
     background: rgb(163, 32, 214);
     color: white;
 }
-.sci li a .fa{
+.sci .li .a .fa{
     color: #3d3d3d;
     font-size: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
 }
 .quickLinks{
     position: relative;
     width: 25% ;
 }
-ul li{
+.ul .li{
     list-style: none;
 }
-ul li a{
+.ul .li .a{
     color: #999;
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
 }
-ul li a:hover{
+.ul .li .a:hover{
     color: #fff;
 }
-span {
+.span {
     display: none;
   }
-  li:hover span {
+.li:hover .span {
     display: initial;
   }
-hr{
+.hr{
     height: 1px;
     border: none;
     background: white;
@@ -108,7 +110,7 @@ hr{
     padding-top: 5px;
     text-align: center;
 }
-@media(max-width: 1375px){
+@media(max-width: 1040px){
 
 .container{
         flex-direction: column;
@@ -120,7 +122,7 @@ hr{
 .container .sec,.aboutus,.quickLinks,.contact{
         width: 100%;
     }
-    .copyrightText{
+.copyrightText{
         padding-top: 5px;
     }
 }
