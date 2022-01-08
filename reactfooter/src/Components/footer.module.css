@@ -99,6 +99,12 @@ ul li a{
 ul li a:hover{
     color: #fff;
 }
+span {
+    display: none;
+  }
+  li:hover span {
+    display: initial;
+  }
 hr{
     height: 1px;
     border: none;
