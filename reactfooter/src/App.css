@@ -5,3 +5,14 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #262b47;
+}
